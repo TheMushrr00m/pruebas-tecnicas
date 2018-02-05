@@ -15,8 +15,8 @@ const Weather = () => import('./components/Weather.vue')
 const Crypto = () => import('./components/Crypto.vue')
 
 const routes = [
-  { path: '/', name: 'Weather', component: Weather },
-  { path: '/crypto-check', name: 'Crypto', component: Crypto }
+  { path: '/pruebas-tecnicas', name: 'Weather', component: Weather },
+  { path: '/pruebas-tecnicas/crypto-check', name: 'Crypto', component: Crypto }
 ]
 
 const router = new VueRouter({
