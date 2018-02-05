@@ -1,7 +1,7 @@
 export default class OpenWeatherApi {
   constructor () {
     this.baseUrl = 'https://api.openweathermap.org/data/2.5/weather?lang=es&appid='
-    this.apiKey = '' // Añadir API Key
+    this.apiKey = 'df70de9d45d974a462af6ccd0db6051d' // Añadir API Key
     this.city = 'Cancun'
     this.requestUrl = `${this.baseUrl}${this.apiKey}&q=${this.city}&units=metric`
   }
